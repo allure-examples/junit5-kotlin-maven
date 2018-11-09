@@ -4,7 +4,7 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 /**
  * eroshenkoam
@@ -22,5 +22,15 @@ public class SimpleTest {
     @Step
     public void firstStep() {
 
+    }
+
+    @Test
+    void skippedTest(){
+        Assumptions.assumeTrue(false);
+    }
+
+    @Test
+    void failedTest(){
+        Assertions.assertTrue(true);
     }
 }
