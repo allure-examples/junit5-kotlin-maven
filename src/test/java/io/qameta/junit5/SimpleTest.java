@@ -10,17 +10,16 @@ import org.junit.jupiter.api.Test;
  * eroshenkoam
  * 24.10.17
  */
-public class SimpleTest {
+class SimpleTest {
 
     @Test
     @Feature("Some feature")
     @Severity(SeverityLevel.CRITICAL)
-    public void testOutput() {
+    void testOutput() {
         firstStep();
     }
 
     @Step
-    public void firstStep() {
-
+    private void firstStep() {
     }
 }
