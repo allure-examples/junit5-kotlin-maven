@@ -1,7 +1,25 @@
-# allure-maven-junit5-example
-Example of allure usage with junit5 with maven
+### Allure JUnit5 Example (using Maven)
 
-Usage:
+Clone the repo:
+
+```bash
+$ git clone git@github.com:allure-examples/allure-junit5-example.git
 ```
-mvn test  
-mvn allure:report 
+
+Then build the project (build requires JDK 1.8 or higher):
+
+```bash
+$ ./mvnw clean verify
+```
+
+Then, to build Allure report run
+
+```bash
+$ ./mvnw allure:report
+```
+
+In order to view the report run
+
+```bash
+$ ./mvnw allure:serve
+```
