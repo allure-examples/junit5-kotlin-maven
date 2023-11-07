@@ -1,26 +1,5 @@
-### Allure JUnit5 Example (using Maven)
+# Example
 
-Clone the repo:
+Example of Allure Report usage with JUnit 5 (Jupiter), Kotlin and Maven
 
-```bash
-$ git clone git@github.com:allure-examples/allure-junit5-example.git
-```
-
-Then build the project (build requires JDK 1.8 or higher):
-
-```bash
-$ ./mvnw clean verify
-```
-
-Then, to build Allure report run
-
-```bash
-$ ./mvnw allure:report
-```
-
-In order to view the report run
-
-```bash
-$ ./mvnw allure:serve
-```
-
+The generated report is available here: [https://allure-examples.github.io/junit5-kotlin-maven](https://allure-examples.github.io/junit5-kotlin-maven/)
