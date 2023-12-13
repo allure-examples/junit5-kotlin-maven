@@ -12,9 +12,9 @@
         <kotlin.compiler.jvmTarget>21</kotlin.compiler.jvmTarget>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <allure.version>2.24.0</allure.version>
-        <aspectj.version>1.9.20.1</aspectj.version>
-        <kotlin.version>1.9.20</kotlin.version>
+        <allure.version>2.25.0</allure.version>
+        <aspectj.version>1.9.21</aspectj.version>
+        <kotlin.version>1.9.21</kotlin.version>
     </properties>
 
     <dependencyManagement>
