@@ -14,7 +14,7 @@
 
         <allure.version>2.25.0</allure.version>
         <aspectj.version>1.9.21</aspectj.version>
-        <kotlin.version>1.9.21</kotlin.version>
+        <kotlin.version>1.9.22</kotlin.version>
     </properties>
 
     <dependencyManagement>
@@ -76,7 +76,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.2.3</version>
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
                     <argLine>
